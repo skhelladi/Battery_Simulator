@@ -37,3 +37,6 @@ There are only a few things that need a bit more explanations:
 3. You can view your geometry through *View Geometry* once you clicked **Modify* button on Geometry interface(This means related geometry files will be generated). This will open ParaView and later operations will be perforamed through ParaView instead of BatterySimulator.
 4. Once you generated related results files through *Run/Resume* button on Control interface, you can click *View Results*. This will open a new interface, and you can view kinds of graphs intuitively.
 
+## License
+
+This project is licensed under the GPL-3 license.
