@@ -6,7 +6,7 @@
     - **OpenFoam-6 installation** : 
 	    - Unzip the `OpenFOAM-6.zip` into your preffered folder (you can find it also in `3rdparty` folder)
 	    - Open a terminal and execute : `source /installation_dir/OpenFOAM-6/etc/bashrc`
-	    - Into `OpenFoam-6` folder execute `Allwmake -j`
+	    - Into `OpenFoam-6` folder execute `./Allwmake -j`
 2. Find the file */installation_dir/openfoam6/etc/controlDict* (use `sudo` command to open it if it is located on a system directory). Find the line `dimensionSet 1;`(You can use `ctrl+f` to locate), then change `1` to `0` and save it.
 3. Use <a href="https://www.qt.io/download-open-source">QtCreator</a> to open project file in *src* directory and complile it into *build* directory (define *build* as output folder in the project options)
 4. Open terminal under *build* folder and execute :
